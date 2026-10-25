@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="google-site-verification" content="TnNfFtM2NiqO8TSl9M-FHrzqEvYWEWSvW5SHmNKK9eM" />
+<title>Order a Store | Your online store, ready to open</title>
+<link rel="canonical" href="https://botsile995-code.github.io/Order-a-store/">
+<link rel="amphtml" href="https://botsile995-code.github.io/Order-a-store/amp.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--red:#ef233c;--ink:#fff;--muted:#a1a1aa;--line:rgba(255,255,255,.1);--surface:rgba(255,255,255,.04);color-scheme:dark;box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:#000;color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:hidden}
+::selection{background:var(--red);color:#fff}
+h1,h2,h3,.mf{font-family:Manrope,Inter,system-ui,sans-serif}
+a{color:inherit}
+.bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;background:linear-gradient(#1a0505,#000)}
+.bg i{position:absolute}
+.s1{top:0;left:0;width:1px;height:1px;box-shadow:234px 124px #fff,654px 345px #fff,876px 12px #fff,1200px 800px #fff,400px 1500px #fff,1800px 200px #fff,100px 1000px #fff,900px 1900px #fff,500px 600px #fff,1400px 100px #fff,300px 400px #fff,1600px 1200px #fff;animation:up 50s linear infinite}
+.s2{top:0;left:0;width:2px;height:2px;box-shadow:123px 456px #fff,789px 234px #fff,456px 890px #fff,1100px 300px #fff,200px 1200px #fff,1500px 500px #fff,600px 1700px #fff,1300px 900px #fff;animation:up 80s linear infinite}
+@keyframes up{to{transform:translateY(-2000px)}}
+.glow{top:50%;left:50%;width:800px;height:800px;max-width:140vw;transform:translate(-50%,-50%);border-radius:50%;background:rgba(220,38,38,.07);filter:blur(120px)}
+.gridl{inset:0;background:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:40px 40px;-webkit-mask-image:radial-gradient(circle at center,#000 40%,transparent 80%);mask-image:radial-gradient(circle at center,#000 40%,transparent 80%)}
+.topblur{position:fixed;z-index:40;inset:0 0 auto 0;height:120px;pointer-events:none;background:linear-gradient(rgba(0,0,0,.8),transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);-webkit-mask-image:linear-gradient(#000,transparent);mask-image:linear-gradient(#000,transparent)}
+.navw{position:fixed;z-index:50;top:0;left:0;right:0;padding:calc(env(safe-area-inset-top,0px) + 16px) 14px 0}
+.pnav{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:10px 12px 10px 22px;border-radius:999px;background:rgba(0,0,0,.6);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid var(--line);box-shadow:0 20px 50px rgba(0,0,0,.5)}
+.brand{display:flex;align-items:center;gap:10px;font:700 1.05rem Manrope,sans-serif;text-decoration:none;letter-spacing:-.01em}
+.dia{width:18px;height:18px;background:var(--red);border-radius:3px;transform:rotate(45deg)}
+.lk{display:flex;gap:30px}.lk a{color:#a1a1aa;font-size:14px;font-weight:500;text-decoration:none;transition:color .2s}.lk a:hover{color:#fff}
+.rt{display:flex;align-items:center;gap:16px}.rt .m{color:#d4d4d8;font-size:14px;font-weight:500;text-decoration:none}
+.pill{display:inline-block;padding:9px 20px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid var(--line);color:#fff;font:700 12px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
+.pill:hover{border-color:var(--red)}
+main{position:relative;z-index:1}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:140px 20px 60px}
+.chip{display:inline-flex;align-items:center;gap:10px;padding:7px 16px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid var(--line);font:600 12px Manrope,sans-serif;color:#fee2e2;letter-spacing:.03em;animation:fu .8s .1s both}
+.dot{position:relative;width:8px;height:8px;border-radius:50%;background:var(--red)}
+.dot::after{content:"";position:absolute;inset:0;border-radius:50%;background:#f87171;animation:ping 1.6s ease-out infinite}
+@keyframes ping{to{transform:scale(3.2);opacity:0}}
+@keyframes fu{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+h1{margin:30px 0 26px;font-size:clamp(2.8rem,10vw,6.2rem);font-weight:600;letter-spacing:-.045em;line-height:1.08;animation:fu .8s .2s both}
+h1 .t{display:block;background:linear-gradient(#fff,#fff 45%,rgba(255,255,255,.4));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+h1 .r{position:relative;display:inline-block;-webkit-text-fill-color:var(--red);color:var(--red)}
+h1 .r svg{position:absolute;left:0;bottom:-8px;width:100%;height:12px;opacity:.6}
+.sub{max-width:620px;margin:0 0 40px;color:#a1a1aa;font-size:clamp(1.05rem,2.4vw,1.4rem);animation:fu .8s .3s both}
+.btns{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;animation:fu .8s .4s both}
+@property --ang{syntax:"<angle>";initial-value:0deg;inherits:false}
+@keyframes spin{to{--ang:360deg}}
+.cta{--ang:0deg;display:inline-flex;align-items:center;gap:10px;padding:16px 38px;border-radius:999px;border:2px solid transparent;color:#fff;font:500 1rem Inter,sans-serif;text-decoration:none;background:linear-gradient(#000,#000) padding-box,conic-gradient(from var(--ang),transparent 0%,#ef233c 5%,#ef233c 30%,transparent 40%,transparent 100%) border-box;animation:spin 2.5s linear infinite}
+.sec{display:inline-flex;align-items:center;gap:10px;padding:16px 30px;border-radius:999px;background:#18181b;border:1px solid #27272a;color:#d4d4d8;font:500 1rem Inter,sans-serif;text-decoration:none}
+.sec:hover{background:#27272a;color:#fff}
+.strip{width:100%;max-width:1100px;margin-top:80px;padding:26px 18px;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06);background:rgba(255,255,255,.02);display:flex;flex-wrap:wrap;gap:14px 40px;justify-content:center;align-items:center}
+.strip b{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#71717a}
+.strip span{font:600 .95rem Manrope,sans-serif;color:#e4e4e7}.strip span::before{content:"\2713";color:var(--red);margin-right:8px}
+.wrap{max-width:1040px;margin:0 auto;padding:60px 18px 40px}
+.head{text-align:center;margin-bottom:36px}
+h2{font-size:clamp(1.8rem,5vw,2.8rem);font-weight:600;letter-spacing:-.02em;margin:0 0 10px;line-height:1.15}
+h2 em{font-style:normal;color:var(--red)}
+.head p{color:#a1a1aa;margin:0}
+.cols{display:grid;gap:28px;grid-template-columns:1fr}
+@media(min-width:900px){.cols{grid-template-columns:1fr 330px;align-items:start}aside{position:sticky;top:96px}}
+.plans{display:grid;gap:16px;margin-bottom:34px}
+@media(min-width:640px){.plans{grid-template-columns:repeat(3,1fr)}}
+.plan{display:block;cursor:pointer;position:relative}
+.plan input{position:absolute;opacity:0;pointer-events:none}
+.card{height:100%;padding:26px 20px;border:1px solid #27272a;border-radius:14px;background:#000;transition:.2s}
+.plan:hover .card{border-color:#3f3f46}
+.plan input:checked+.card{border-color:var(--red);background:rgba(24,24,27,.6);box-shadow:0 0 30px rgba(239,35,60,.14)}
+.plan input:focus-visible+.card{outline:3px solid #fff;outline-offset:2px}
+.rec{position:absolute;top:-11px;left:50%;transform:translateX(-50%);background:var(--red);color:#fff;font:700 10px Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;padding:4px 12px;border-radius:999px;white-space:nowrap}
+.card b{font:700 1.2rem Manrope,sans-serif}
+.price{font:700 2.4rem Manrope,sans-serif;margin:8px 0 2px;letter-spacing:-.03em}
+.host{color:var(--red);font-weight:600;font-size:.88rem;margin-bottom:18px}
+.card ul{list-style:none;margin:0;padding:0;display:grid;gap:10px;color:#d4d4d8;font-size:.9rem}
+.card li::before{content:"\2713";color:var(--red);margin-right:10px}
+.fields{display:grid;gap:14px}
+@media(min-width:620px){.fields{grid-template-columns:1fr 1fr}.full{grid-column:1/-1}}
+label.f{display:block;font-weight:500;font-size:.9rem;color:#d4d4d8}
+input[type=text],input[type=email],textarea{width:100%;margin-top:6px;padding:14px 18px;font:inherit;color:#fff;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:14px}
+input[type=text]:focus,input[type=email]:focus,textarea:focus{outline:0;border-color:var(--red)}
+.sum{padding:24px;border:1px solid var(--line);border-radius:14px;background:rgba(9,9,11,.8);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.sum h3{margin:0 0 10px;font-size:1.2rem}
+.line{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px dashed #27272a;font-size:.95rem}
+.inc{font-size:.82rem;color:#a1a1aa;padding:10px 0 2px}
+.total{display:flex;justify-content:space-between;font:700 1.5rem Manrope,sans-serif;padding:14px 0 4px}
+.go{width:100%;margin-top:10px;padding:14px;border:0;border-radius:10px;font:700 .8rem Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase;background:var(--red);color:#fff;cursor:pointer}
+.go:hover{background:#b91c1c}.go.alt{background:rgba(255,255,255,.05);border:1px solid var(--line)}.go.alt:hover{background:rgba(255,255,255,.1)}
+.go:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.msg{margin-top:12px;font-size:.88rem;color:#a1a1aa}.err{color:#fb7185}
+footer{position:relative;z-index:1;margin-top:60px;border-top:1px solid #18181b;background:#000;overflow:hidden;padding:60px 18px 28px}
+.fi{max-width:1040px;margin:0 auto;display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between}
+.fi p{color:#71717a;max-width:320px;margin:14px 0 0}
+.fl{display:grid;gap:12px;font-size:.9rem}.fl h4{margin:0 0 4px;font:700 12px Inter,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
+.fl a{color:#a1a1aa;text-decoration:none}.fl a:hover{color:#fff}
+.big{text-align:center;font:700 clamp(2.6rem,13vw,10rem)/1 Manrope,sans-serif;letter-spacing:-.04em;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.12);margin:50px 0 30px;user-select:none;white-space:nowrap}
+.cp{max-width:1040px;margin:0 auto;padding-top:20px;border-top:1px solid #18181b;color:#52525b;font-size:10px;letter-spacing:.15em;text-transform:uppercase}
+@media(max-width:760px){.lk,.rt .m{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"><i class="s1"></i><i class="s2"></i><i class="glow"></i><i class="gridl"></i></div>
+<div class="topblur"></div>
+<header class="navw"><nav class="pnav" aria-label="Main">
+<a class="brand" href="#"><span class="dia"></span>Order a Store</a>
+<span class="lk"><a href="#order">Packages</a><a href="#included">Included</a><a href="#details">Your details</a></span>
+<span class="rt"><a class="m" href="mailto:botsile995@gmail.com">Email us</a><a class="pill" href="#order">Order now</a></span>
+</nav></header>
+<main>
+<section class="hero">
+<span class="chip"><span class="dot"></span>Domain, logo and product upload included</span>
+<h1><span class="t">Your online store,</span><span class="t">ready to <span class="r">open<svg viewBox="0 0 100 10" preserveAspectRatio="none" aria-hidden="true"><path d="M0 5 Q 50 10 100 5" stroke="currentColor" stroke-width="2" fill="none"/></svg></span></span></h1>
+<p class="sub">Pick a package and place your order. We build the store, load your products and hand you the keys.</p>
+<div class="btns"><a class="cta" href="#order">Order a store &rarr;</a><a class="sec" href="#included">What&rsquo;s included</a></div>
+<div class="strip" id="included"><b>Included in every plan</b><span>Domain name</span><span>Logo design</span><span>Product upload</span></div>
+</section>
+<section class="wrap" id="order">
+<div class="head"><h2>Choose your <em>package</em></h2><p>One-time store price, plus a monthly hosting plan.</p></div>
+<div class="cols">
+<div>
+<div class="plans" id="plans"></div>
+<div class="head" id="details" style="text-align:left;margin-bottom:16px"><h2 style="font-size:1.6rem">Your details</h2></div>
+<div class="fields">
+<label class="f">Full name<input type="text" id="name" autocomplete="name"></label>
+<label class="f">Email<input type="email" id="email" autocomplete="email"></label>
+<label class="f full">Business or store name<input type="text" id="biz"></label>
+<label class="f full">What will you sell? Anything else we should know?<textarea id="notes" rows="4"></textarea></label>
+</div>
+</div>
+<aside><div class="sum" aria-live="polite">
+<h3>Your order</h3>
+<div id="lines"></div>
+<div class="inc">Includes domain, logo design and product upload.</div>
+<div class="total"><span>Store total</span><span id="total">P0</span></div>
+<div class="line" id="hostline" style="border:0"></div>
+<button class="go" id="send">Place order</button>
+<button class="go alt" id="copy">Copy order summary</button>
+<div class="msg" id="msg">Placing the order opens an email to us with everything filled in. We reply within one business day with payment details.</div>
+</div></aside>
+</div>
+</section>
+</main>
+<footer>
+<div class="fi">
+<div><a class="brand" href="#"><span class="dia"></span>Order a Store</a><p>We build your online store, load your products and hand you the keys.</p></div>
+<div class="fl"><h4>Store</h4><a href="#order">Packages</a><a href="#included">What&rsquo;s included</a><a href="#details">Place an order</a></div>
+<div class="fl"><h4>Contact</h4><a href="mailto:botsile995@gmail.com">botsile995@gmail.com</a></div>
+</div>
+<div class="big" aria-hidden="true">ORDER A STORE</div>
+<div class="cp">&copy; 2026 Order a Store. Store prices are one-time. Monthly hosting is billed separately.</div>
+</footer>
+<script>
+var SELLER_EMAIL="botsile995@gmail.com", CUR="P";
+var PLANS=[
+ {id:"starter",name:"Starter",price:1500,host:150,pts:["Up to 25 products","1 page design","Mobile ready","Handover in 5 days"]},
+ {id:"growth",name:"Growth",price:2500,host:250,rec:1,pts:["Up to 200 products","Custom design","Payments and shipping set up","Handover in 10 days"]},
+ {id:"custom",name:"Custom",price:3500,host:350,pts:["Unlimited products","Custom features","Product import","Priority support"]}];
+var state={plan:"growth"};
+var $=function(i){return document.getElementById(i)};
+function money(n){return CUR+n.toLocaleString("en-US")}
+function cur(){return PLANS.filter(function(x){return x.id===state.plan})[0]}
+function render(){
+ $("plans").innerHTML=PLANS.map(function(p){return '<label class="plan">'+(p.rec?'<span class="rec">Recommended</span>':'')+'<input type="radio" name="plan" value="'+p.id+'"'+(state.plan===p.id?" checked":"")+'><div class="card"><b>'+p.name+'</b><div class="price">'+money(p.price)+'</div><div class="host">+ '+money(p.host)+' / month hosting</div><ul>'+p.pts.map(function(x){return"<li>"+x+"</li>"}).join("")+'</ul></div></label>'}).join("");
+ document.querySelectorAll('input[name=plan]').forEach(function(el){el.onchange=function(){state.plan=el.value;sum()}});
+ sum();
+}
+function sum(){
+ var p=cur();
+ $("lines").innerHTML='<div class="line"><span>'+p.name+' store</span><span>'+money(p.price)+'</span></div>';
+ $("total").textContent=money(p.price);
+ $("hostline").innerHTML="<span>Monthly hosting</span><span>"+money(p.host)+" / month</span>";
+}
+function text(){
+ var p=cur();
+ return "New store order\n\n- "+p.name+" store: "+money(p.price)+"\n- Included: domain, logo design, product upload\n\nStore total: "+money(p.price)+"\nMonthly hosting: "+money(p.host)+" / month\n\nName: "+$("name").value+"\nEmail: "+$("email").value+"\nBusiness: "+$("biz").value+"\nNotes: "+$("notes").value;
+}
+function valid(){
+ var m=$("msg");
+ if(!$("name").value.trim()||!/^\S+@\S+\.\S+$/.test($("email").value.trim())){
+  m.className="msg err";m.textContent="Add your name and a valid email so we can reach you.";return false}
+ m.className="msg";return true;
+}
+$("send").onclick=function(){
+ if(!valid())return;
+ location.href="mailto:"+SELLER_EMAIL+"?subject="+encodeURIComponent("Store order from "+$("name").value.trim())+"&body="+encodeURIComponent(text());
+ $("msg").textContent="Your email app should open with the order ready to send. If it didn't, use Copy order summary and email it to "+SELLER_EMAIL+".";
+};
+$("copy").onclick=function(){
+ if(!valid())return;
+ try{navigator.clipboard.writeText(text()).then(function(){$("msg").textContent="Order summary copied."},function(){$("msg").textContent="Copy failed. Select and copy your details manually."})}
+ catch(e){$("msg").textContent="Copy failed. Select and copy your details manually."}
+};
+render();
+</script>
+</body>
+</html>
